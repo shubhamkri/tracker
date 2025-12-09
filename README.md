@@ -83,7 +83,7 @@ The Expense Tracker features a simple and easy-to-navigate interface, ensuring a
    Now you can run the Family Expense Tracker application using Streamlit:
 
     ```bash
-    streamlit run app.py
+   
     ```
 
 ## How to Contribute
