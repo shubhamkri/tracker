@@ -19,8 +19,7 @@ resource "docker_image" "app_image" {
 
 resource "docker_container" "app_container" {
   name  = "streamlit_app"
-  image = docker_image.app_image.name   # ✅ use .name
-
+  image = docker_image.app_image.name   
   ports {
     internal = var.internal_port
     external = var.external_port
