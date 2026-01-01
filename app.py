@@ -186,7 +186,6 @@ elif selected == "Data Visualization":
         values = [data[1] for data in expense_data]
         total = sum(values)
         percentages = [(value / total) * 100 for value in values]
-
         # Create a smaller pie chart with a transparent background
         fig, ax = plt.subplots(figsize=(3, 3), dpi=300)
         ax.pie(
