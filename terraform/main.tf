@@ -11,9 +11,8 @@ provider "docker" {}
 
 resource "docker_image" "expense_tracker" {
   name = "expense-tracker:latest"
-
   build {
-    context    = "."
+    context    = ".."
     dockerfile = "Dockerfile"
   }
 }
